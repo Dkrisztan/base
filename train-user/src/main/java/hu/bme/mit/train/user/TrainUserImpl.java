@@ -34,7 +34,7 @@ public class TrainUserImpl implements TrainUser {
 			this.joystickPosition = joystickPosition;
 		}
 
-		System.out.println("Merge");
+		System.out.println("Merge")
 		
 		System.out.println("Conflict");
 
