@@ -33,6 +33,8 @@ public class TrainUserImpl implements TrainUser {
 		} else {
 			this.joystickPosition = joystickPosition;
 		}
+
+		System.out.println("Merge");
 		
 		controller.setJoystickPosition(joystickPosition);
 	}
