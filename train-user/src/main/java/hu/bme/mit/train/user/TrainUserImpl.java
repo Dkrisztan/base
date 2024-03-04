@@ -36,6 +36,8 @@ public class TrainUserImpl implements TrainUser {
 
 		System.out.println("Merge");
 		
+		System.out.println("Conflict");
+
 		controller.setJoystickPosition(joystickPosition);
 	}
 
