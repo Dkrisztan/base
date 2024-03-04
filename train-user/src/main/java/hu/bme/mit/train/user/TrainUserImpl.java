@@ -29,12 +29,12 @@ public class TrainUserImpl implements TrainUser {
 		int max = 180;
 
 		if (joystickPosition > (zero -max/16) && joystickPosition < (zero+max / 16)) {
-			this.joystickPosition = min;
+			this.joystickPosition = zero;
 		} else {
 			this.joystickPosition = joystickPosition;
 		}
 
-		System.out.println("Merge")
+		System.out.println("Merge");
 		
 		System.out.println("Conflict");
 
