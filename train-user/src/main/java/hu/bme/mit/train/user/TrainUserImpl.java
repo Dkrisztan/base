@@ -34,6 +34,8 @@ public class TrainUserImpl implements TrainUser {
 			this.joystickPosition = joystickPosition;
 		}
 		
+		System.out.println("Conflict");
+
 		controller.setJoystickPosition(joystickPosition);
 	}
 
